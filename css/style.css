@@ -3784,3 +3784,23 @@ ul.minicart .cart-price .new {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: .1rem solid #8051F4;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: #8051F4;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+.social-media a:hover{
+    background: white;
+    color: #8051F4;
+    box-shadow: 0 0 1rem #8051F4;
+}
